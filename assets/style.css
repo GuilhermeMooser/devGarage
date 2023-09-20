@@ -74,6 +74,8 @@ button.btn.btnSectionTopo {
     color: var(--secundary-color);
     border-radius: 10px;
     transition: 0.5s;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
 }
 
 button.btn.btnSectionTopo:hover {
@@ -98,10 +100,12 @@ button.btn.btnSectionTopo:hover {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: 14px;
+    font-size: 13px;
     padding: 3px 6px;
     background: var(--tertiary-color);
     color: var(--secundary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 .divisor {
@@ -122,6 +126,7 @@ section#comunidade {
     background: var(--tertiary-color);
     color: var(--secundary-color);
     transition: 0.5s;
+    font-family: 'Oswald', sans-serif;
 }
 
 #comunidade h1:hover {
@@ -146,6 +151,7 @@ section#comunidade {
     border: 5px solid var(--primary-color);
     background: var(--tertiary-color);
     border-radius: 10px;
+    
 }
 
 .borderComment p {
