@@ -14,7 +14,7 @@ function Relatorios() {
     /**Buscando da API */
     useEffect( () => {
         function loadCars() {
-            let url = "https://myfakeapi.com/api/cars/?limit=10";
+            let url = "https://myfakeapi.com/api/cars/";
 
             setTimeout(() => {
                     fetch(url)
@@ -45,6 +45,9 @@ function Relatorios() {
     if(cars.length === 0) {
         return (
             <>
+                <div className='fullAlignFlex espacoTopo espacoLateral'>
+                    <p>Nenhum carro encontrado.</p>
+                </div>
                 <ToastContainer autoClose={3000} position="top-right"/>
             </>
         );
@@ -87,15 +90,7 @@ function Relatorios() {
             </div>
         </>
         );
-    } else {
-        return (
-        <>
-            <p>Nenhum carro encontrado.</p>
-        </>
-        );
-    }
-  
-  
+    } 
 }
 
 export default Relatorios;
